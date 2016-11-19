@@ -1,0 +1,44 @@
+nav {
+    position: fixed;
+    /*padding: 1%;*/
+    margin: 0;
+    /*height: auto;*/
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+}
+
+nav * {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul.icon {
+  float: left;
+}
+
+ul.subMenu {
+}
+
+main {
+}
+
+footer {
+    position: fixed;
+    padding: 1%;
+    margin: 0;
+    /*height: auto;*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+}
+
+footer:hover {
+    /*height: auto;*/
+}
