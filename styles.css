@@ -19,14 +19,12 @@ ul {
 }
 
 ul.icon {
-  float: left;
+    float: left;
 }
 
-ul.subMenu {
-}
+ul.subMenu {}
 
-main {
-}
+main {}
 
 footer {
     position: fixed;
