@@ -1,12 +1,5 @@
 nav {
-    position: fixed;
-    /*padding: 1%;*/
-    margin: 0;
-    /*height: auto;*/
-    right: 0;
-    top: 0;
-    left: 0;
-    background-color: #efefef;
+  max-height: 100%;
 }
 
 nav * {
@@ -18,8 +11,29 @@ ul {
     float: right;
 }
 
-ul.icon {
+.iconContainer {
     float: left;
+    width: 10%;
+    background-color: grey;
+}
+
+.icon {
+  max-width: 100%;
+}
+
+.navContainer {
+    position: fixed;
+    /*padding: 1%;*/
+    margin: 0;
+    /*height: auto;*/
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+}
+
+.navContainer:hover{
+  display: block;
 }
 
 ul.subMenu {}
