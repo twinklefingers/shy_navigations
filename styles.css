@@ -2,6 +2,17 @@ nav {
     display: none;
 }
 
+main {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
