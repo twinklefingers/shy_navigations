@@ -1,6 +1,15 @@
 nav {
     /*max-height: 100%;*/
+    position: fixed;
+    /*padding: 1%;*/
+    height: 10%;
+    margin: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
     height: 0%;
+    z-index: 1;
 }
 
 nav * {
@@ -19,7 +28,8 @@ nav * {
     right: 0;
     top: 0;
     left: 0;
-    background-color: #efefef;
+    /*background-color: #efefef;*/
+    z-index: 2;
 }
 
 .navContainer:hover * {
@@ -51,7 +61,16 @@ ul {
     float: right;
 }
 
-main {}
+main {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
 
 footer {
     position: fixed;
